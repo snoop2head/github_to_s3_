@@ -9,11 +9,11 @@ from shutil import move, copymode
 def sort_and_move_image_file():
     # change the source directory to your project directory
     # source = 'absolute/path/to/source_folder'
-    source = "/Users/noopy/github_to_s3/"
+    source = "/Users/noopy/github_to_s3_/"
 
     # change the destination directory to your project directory
     # dest = 'absolute/path/to/source_folder'
-    dest = "/Users/noopy/github_to_s3/markdown_files/img"
+    dest = "/Users/noopy/github_to_s3_/markdown_files/img"
 
     jpg_file_list = glob.glob("markdown_files/*.jpg")
     jpeg_file_list = glob.glob("markdown_files/*.jpeg")
