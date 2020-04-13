@@ -30,7 +30,7 @@ def replace(file_path, pattern, subst):
 def change_image_src():
     orig = "](/img/"
     # Put your AWS S3 bucket root url
-    new = "]({{AWS_S3_ROOT_URL}}/img/"
+    new = "]({{AWS_S3_ROOT_URL}}/markdown_files/img/"
 
     # read markdown files
     read_files_list = glob.glob("markdown_files/*.md")
